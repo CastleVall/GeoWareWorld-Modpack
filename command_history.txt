@@ -1,0 +1,50 @@
+/gamerule doInsomnia false
+/rc view @a pista1 true
+/rc reload
+/tp PacMarquinho
+/rc view @a pista1 true
+/tp PacMarquinho
+/blockrex screen open CastleVal pasapalabra facil
+/time set noon
+/blockrex screen open @a penguin
+/warp tp tomoftmask
+/tombofmask start @a arena
+/tombofmask start @a arena 10 1
+/tombofmask stop
+/tombofmask start @a arena 1 1
+/tombofmask stop
+/tombofmask start @a arena 2 1
+/tombofmask stop
+/gamemode survival @a
+/tombofmask start @a arena 2 1
+/tombofmask stop
+/warp tp snake
+/snake start
+/snake prepare @a 1 10 all
+/snake start
+/snake stop
+/animorph model @a empty
+/snake prepare @a 1 10 all
+/snake start
+/snake stop
+/animorph model @a player
+/playerhide @a
+/playerhide @a small
+/playerhide @a off
+/playerhide @a invisible
+/playerhide @a off
+/playerhide @a transparent
+/playerhide CastleVal transparent
+/playerhide @a off
+/playerhide CastleVal transparent
+/playerhide CastleVal off
+/playerhide GGARNETS invisible
+/playerhide GGARNETS off
+/playerhide CastleVal invisible
+/playerhide CastleVal small
+/playerhide CastleVal invisible
+/playerhide CastleVal transparent
+/playerhide @a invisible
+/playerhide @a transparent
+/tp GGARNETS
+/animorph reload
