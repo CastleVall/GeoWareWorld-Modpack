@@ -1,0 +1,12 @@
+.fabric/
+crash-reports/
+data/
+datapacks/
+debug/
+downloads/
+logs/
+resourcepacks/
+saves/
+screenshots/
+config/
+echo-model/

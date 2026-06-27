@@ -1,50 +1,50 @@
-/gamerule doInsomnia false
-/rc view @a pista1 true
-/rc reload
-/tp PacMarquinho
-/rc view @a pista1 true
-/tp PacMarquinho
-/blockrex screen open CastleVal pasapalabra facil
-/time set noon
-/blockrex screen open @a penguin
-/warp tp tomoftmask
-/tombofmask start @a arena
-/tombofmask start @a arena 10 1
-/tombofmask stop
-/tombofmask start @a arena 1 1
-/tombofmask stop
-/tombofmask start @a arena 2 1
-/tombofmask stop
-/gamemode survival @a
-/tombofmask start @a arena 2 1
-/tombofmask stop
-/warp tp snake
-/snake start
-/snake prepare @a 1 10 all
-/snake start
-/snake stop
-/animorph model @a empty
-/snake prepare @a 1 10 all
-/snake start
-/snake stop
-/animorph model @a player
-/playerhide @a
-/playerhide @a small
-/playerhide @a off
-/playerhide @a invisible
-/playerhide @a off
-/playerhide @a transparent
-/playerhide CastleVal transparent
-/playerhide @a off
-/playerhide CastleVal transparent
-/playerhide CastleVal off
-/playerhide GGARNETS invisible
-/playerhide GGARNETS off
-/playerhide CastleVal invisible
-/playerhide CastleVal small
-/playerhide CastleVal invisible
-/playerhide CastleVal transparent
-/playerhide @a invisible
-/playerhide @a transparent
-/tp GGARNETS
-/animorph reload
+/summon gww:cable -17.46 -60.00 -3.57
+/summon gww:valvula
+/data get entity 8a7aac72-c9a0-4349-a1b8-e78b83544237
+/summon gww:cable -17.46 -60.00 -3.57 {IsActive:true}
+/summon gww:cable -22.87 -60.00 0.51 {IsActive:true}
+/summon gww:cable -22.87 -60.00 0.51 {IsActive:true, type:1}
+/summon gww:cable -23.12 -60.00 -2.78 {IsActive:true, type:1}
+/summon gww:cable -23.22 -60.00 -5.21 {IsActive:true, Type:1}
+/summon gww:cable -24.5 -60.00 -7.5 {IsActive:true, Type:1}
+/summon gww:cable -24.5 -60.00 -8.5 {IsActive:true, Type:2}
+/summon gww:interruptor_industrial
+/escaperoom config interruptor ffbc8e76-cef7-42dd-ba85-b33aaf8434a4 link f3d8cab2-ef09-42cf-bc2c-ed9365652ed2
+/data merge entity f3d8cab2-ef09-42cf-bc2c-ed9365652ed2 {CorrectState:0}
+/data merge entity f3d8cab2-ef09-42cf-bc2c-ed9365652ed2 {CorrectState:3}
+/summon gww:manivela -16.38 -60.00 -8.09
+/summon gww:valvula -19.65 -60.00 -10.36 {Type:2}
+/summon gww:manivela -13.55 -60.00 -12.68
+/summon gww:figuras_pared -18.97 -60.00 -13.83
+/kill fe953618-5848-44ff-bdf2-177d2b1acc9e
+/summon gww:figuras_pared -19.0 -60.00 -13.0
+/kill 6c8e3df5-75d2-4d9f-869e-f6908d40150c
+/summon gww:figuras_pared -19.0 -60.00 -13.1
+/kill d79a301c-0b37-4f48-b121-0ba10188fc48
+/summon gww:figuras_pared -19.0 -60.00 -13.1 {Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b}
+/kill 00efa729-4189-4166-bbfb-53d850204b2c
+/summon gww:figuras_pared -19.0 -60.00 -13.01 {Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b}
+/escaperoom capture test1 20
+/tp -16 60 -9
+/escaperoom clear 20
+/escaperoom reset test1 20
+/escaperoom save test1
+/escaperoom load test1
+/escaperoom paste test1
+/summon gww:luz_tortuga
+/summon gww:panel_energia
+/summon gww:reja_ducto
+/escaperoom config reja d407b0e5-7211-4dac-a33f-b2eedbe3c7f7 link fd28ebaf-7209-49b2-8bf4-d85923dceb5e
+/summon gww:panel_energia
+/summon gww:reja_ducto
+/escaperoom config reja d5a6cbf5-2508-4dec-8993-98bca4a56724 link fe1011c2-41cb-4bf8-992d-9aa2ea3259c9
+/summon gww:panel_fusibles 0.74 -60.00 -61.51
+/summon gww:luz_tortuga
+/escaperoom config panel_fusible link
+/escaperoom config panel_fusible 2d4bb40a-b646-4930-9df6-1f4718079863 link e03cd1d2-edbb-43c9-b387-97412ef47bbe
+/escaperoom config panel_fusible 2d4bb40a-b646-4930-9df6-1f4718079863 link e03cd1d2-edbb-43c9-b387-97412ef47bbe 1
+/summon gww:luz_tortuga -3.53 -60.00 -60.45
+/escaperoom config panel_fusible 2d4bb40a-b646-4930-9df6-1f4718079863 link d41c2bae-1a1b-455a-8e8e-5f34913cf3d5 2
+/summon gww:puerta_metalica
+/summon gww:ublabla
+/noise toggle true
