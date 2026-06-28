@@ -11,4 +11,7 @@ screenshots/
 config/
 echo-model/
 Distant_Horizons_server_data/
-command_history
+command_history.txt
+command_history.txt
+command_history.txt
+usercache.json
