@@ -8,6 +8,7 @@ logs/
 resourcepacks/
 saves/
 screenshots/
+shaderpacks/
 config/
 echo-model/
 Distant_Horizons_server_data/
@@ -18,3 +19,10 @@ usercache.json
 command_history.txt
 usercache.json
 command_history.txt
+hexawall.db
+hs_err_pid16880.log
+hs_err_pid2576.log
+hs_err_pid27260.log
+hs_err_pid27756.log
+hs_err_pid9368.log
+options.txt
