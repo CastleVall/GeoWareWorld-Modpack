@@ -66,3 +66,4 @@ config/vasos.yml
 /config/voicechat
 servers.dat
 servers.dat_old
+/config/mediaplayer
