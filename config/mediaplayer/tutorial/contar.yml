@@ -1,0 +1,87 @@
+estilo: sango
+
+cerrable: false
+
+timer: 60
+
+fade_in: 0
+fade_out: 0.5
+
+# --- Fuente global ---
+# Se puede sobreescribir por seccion con un "font:" dentro de la seccion (ver abajo).
+#   minecraft (nativa, por defecto) | Arial | Helvetica | Verdana | Poppins | Saw.otf | Minecraft.otf
+font: arial
+
+timer_size: 36
+
+imagenes:
+  # - src: images/logo.png
+  #   x: 0.5
+  #   y: 0.12
+  #   w: 0.18
+  # - src: https://ejemplo.com/sello.gif
+  #   x: 0.9
+  #   y: 0.9
+  #   w: 0.1
+
+# Video del recuadro central. Puede ser:
+#   - un archivo local en la carpeta ya existente config/mediaplayer/videos/  (ej: tutorial.mp4)
+#   - una URL (http..., youtube, twitch, etc.)
+#   - vacio ("")  -> el recuadro se muestra en NEGRO
+video: ""
+
+# --- Textos bilingues (es / en). El idioma se elige segun el idioma del cliente. ---
+# En CUALQUIER texto puedes incrustar iconos internos con tokens entre llaves:
+#   Teclas de letra:  {a} {b} {c} ... {z}  y  {ñ}
+#   Mouse:            {lclick}  {rclick}
+#   Simbolos:         {circle}  {cross}  {music}  {block}
+#   Caras/cabezas:    {steve}  {happy}  {angry}
+# Ejemplo:  "Muevete con {w}{a}{s}{d} y haz clic con {lclick}"
+
+# Cada seccion admite "size:" (tamaño en px de diseno) y "font:" propios.
+titulo:
+  size: 50
+  # font: Poppins
+  es: "CUENTA TU ENTORNO"
+  en: "COUNT YOUR SURROUNDINGS"
+
+subtitulo:
+  size: 34
+  es: "Tutorial"
+  en: "Tutorial"
+
+titulo_controles:
+  size: 30
+  es: "Controles"
+  en: "Controls"
+
+instrucciones:
+  size: 23
+  es:
+    - "&lObjetivo:&r"
+    - "Encuentra y cuenta correctamente todas las entidades objetivo antes de que se acabe el tiempo."
+    - ""
+    - "&lEntidad:&r al comenzar la partida se te asignara una entidad especifica que deberas contar"
+    - ""
+    - "&lConteo:&r deberas llevar la cuenta mentalmente; el juego no mostrara tu progreso"
+    - ""
+    - "&lTemporizador:&r dispones de un tiempo limitado para encontrar y contar todos los objetivos"
+    - ""
+    - "&lRespuesta:&r al finalizar el tiempo, escribe en el chat la cantidad que crees correcta"
+    - ""
+  en:
+    - "&lObjective:&r"
+    - "Find and correctly count all the target entities before time runs out."
+    - ""
+    - "&lEntity:&r At the start of the game, you will be assigned a specific entity to count"
+    - ""
+    - "&lCounting:&r You must keep track of the count mentally; the game will not display your progress"
+    - ""
+    - "&lTimer:&r You have a limited amount of time to find and count all the objectives"
+    - ""
+    - "&lAnswer:&r When time is up, type the number you believe is correct into the chat"
+    - ""
+controles:
+  size: 21
+  es: "Muevete con {w}{a}{s}{d}   Responde en el chat"
+  en: "Move with {w}{a}{s}{d}   Answer in the chat"

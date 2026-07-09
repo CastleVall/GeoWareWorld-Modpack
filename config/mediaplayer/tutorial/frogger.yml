@@ -1,0 +1,95 @@
+estilo: sango
+
+cerrable: false
+
+timer: 60
+
+fade_in: 0
+fade_out: 0.5
+
+# --- Fuente global ---
+# Se puede sobreescribir por seccion con un "font:" dentro de la seccion (ver abajo).
+#   minecraft (nativa, por defecto) | Arial | Helvetica | Verdana | Poppins | Saw.otf | Minecraft.otf
+font: arial
+
+timer_size: 36
+
+imagenes:
+  # - src: images/logo.png
+  #   x: 0.5
+  #   y: 0.12
+  #   w: 0.18
+  # - src: https://ejemplo.com/sello.gif
+  #   x: 0.9
+  #   y: 0.9
+  #   w: 0.1
+
+# Video del recuadro central. Puede ser:
+#   - un archivo local en la carpeta ya existente config/mediaplayer/videos/  (ej: tutorial.mp4)
+#   - una URL (http..., youtube, twitch, etc.)
+#   - vacio ("")  -> el recuadro se muestra en NEGRO
+video: ""
+
+# --- Textos bilingues (es / en). El idioma se elige segun el idioma del cliente. ---
+# En CUALQUIER texto puedes incrustar iconos internos con tokens entre llaves:
+#   Teclas de letra:  {a} {b} {c} ... {z}  y  {ñ}
+#   Mouse:            {lclick}  {rclick}
+#   Simbolos:         {circle}  {cross}  {music}  {block}
+#   Caras/cabezas:    {steve}  {happy}  {angry}
+# Ejemplo:  "Muevete con {w}{a}{s}{d} y haz clic con {lclick}"
+
+# Cada seccion admite "size:" (tamaño en px de diseno) y "font:" propios.
+titulo:
+  size: 50
+  # font: Poppins
+  es: "FROGGER"
+  en: "FROGGER"
+
+subtitulo:
+  size: 34
+  es: "Tutorial"
+  en: "Tutorial"
+
+titulo_controles:
+  size: 30
+  es: "Controles"
+  en: "Controls"
+
+instrucciones:
+  size: 23
+  es:
+    - ""
+    - "&lObstaculos:"
+    - ""
+    - "&lCarros:&r cuando te golpean mueres"
+    - ""
+    - "&lTroncos:&r se mueven horizontalmente de un lado a otro y debes de saltar sobre ellos"
+    - ""
+    - "&lTortugas:&r entran y salen del agua cada cierto tiempo"
+    - ""
+    - "&lTrampas de oso:&r te dejan quieto en un lugar"
+    - ""
+    - "&lBarro:&r no te deja saltar ni correr"
+    - ""
+    - "&lHojas de baba:&r te desliza y te da mucha velocidad"
+    - ""
+  en:
+    - ""
+    - "Obstacles:"
+    - ""
+    - "Cars: if they hit you, you die"
+    - ""
+    - "Logs: they move horizontally from side to side, and you must jump onto them"
+    - ""
+    - "Turtles: they go in and out of the water periodically"
+    - ""
+    - "Bear traps: they immobilize you"
+    - ""
+    - "Mud: prevents you from jumping or running"
+    - ""
+    - "Slime leaves: make you slide and greatly increase your speed"
+    - ""
+controles:
+  size: 21
+  es: "Muevete con {w}{a}{s}{d}   Saltar: ESPACIO"
+  en: "Move with {w}{a}{s}{d}   Jump: SPACE"

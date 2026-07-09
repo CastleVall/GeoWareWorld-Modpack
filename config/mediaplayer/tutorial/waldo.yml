@@ -1,0 +1,87 @@
+estilo: sango
+
+cerrable: false
+
+timer: 60
+
+fade_in: 0
+fade_out: 0.5
+
+# --- Fuente global ---
+# Se puede sobreescribir por seccion con un "font:" dentro de la seccion (ver abajo).
+#   minecraft (nativa, por defecto) | Arial | Helvetica | Verdana | Poppins | Saw.otf | Minecraft.otf
+font: arial
+
+timer_size: 36
+
+imagenes:
+  # - src: images/logo.png
+  #   x: 0.5
+  #   y: 0.12
+  #   w: 0.18
+  # - src: https://ejemplo.com/sello.gif
+  #   x: 0.9
+  #   y: 0.9
+  #   w: 0.1
+
+# Video del recuadro central. Puede ser:
+#   - un archivo local en la carpeta ya existente config/mediaplayer/videos/  (ej: tutorial.mp4)
+#   - una URL (http..., youtube, twitch, etc.)
+#   - vacio ("")  -> el recuadro se muestra en NEGRO
+video: ""
+
+# --- Textos bilingues (es / en). El idioma se elige segun el idioma del cliente. ---
+# En CUALQUIER texto puedes incrustar iconos internos con tokens entre llaves:
+#   Teclas de letra:  {a} {b} {c} ... {z}  y  {ñ}
+#   Mouse:            {lclick}  {rclick}
+#   Simbolos:         {circle}  {cross}  {music}  {block}
+#   Caras/cabezas:    {steve}  {happy}  {angry}
+# Ejemplo:  "Muevete con {w}{a}{s}{d} y haz clic con {lclick}"
+
+# Cada seccion admite "size:" (tamaño en px de diseno) y "font:" propios.
+titulo:
+  size: 50
+  # font: Poppins
+  es: "ENCUENTRA A WALDO"
+  en: "FIND WALDO"
+
+subtitulo:
+  size: 34
+  es: "Tutorial"
+  en: "Tutorial"
+
+titulo_controles:
+  size: 30
+  es: "Controles"
+  en: "Controls"
+
+instrucciones:
+  size: 23
+  es:
+    - "&lObjetivo:&r"
+    - "Encuentra al NPC asignado antes de que lo hagan los otros jugadores."
+    - ""
+    - "&lPista:&r en la esquina superior derecha de la pantalla aparece una imagen del NPC que debes encontrar"
+    - ""
+    - "&lInteraccion:&r cuando encuentres un NPC, haz clic derecho para comprobar si es tu objetivo"
+    - ""
+    - "&lValidacion:&r solo el NPC asignado cuenta como el correcto; si interactuas con un personaje distinto pierdes puntos y deberas seguir buscando"
+    - ""
+    - "&l¡ABRE BIEN LOS OJOS!&r"
+    - ""
+  en:
+    - "&lObjective:&r"
+    - "Find your assigned NPC before the other players do."
+    - ""
+    - "&lHint:&r An image of the NPC you need to find is displayed in the top-right corner of the screen"
+    - ""
+    - "&lInteraction:&r When you find an NPC, right-click to check if it is your target"
+    - ""
+    - "&lValidation:&r Only the assigned NPC counts as the correct one; if you interact with a different character you lose points and you must keep searching"
+    - ""
+    - "&lOPEN YOUR EYES!&r"
+    - ""
+controles:
+  size: 21
+  es: "Muevete con {w}{a}{s}{d}   Comprobar NPC: {rclick}"
+  en: "Move with {w}{a}{s}{d}   Check NPC: {rclick}"
