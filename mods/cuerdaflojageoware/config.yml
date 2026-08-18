@@ -1,9 +1,0 @@
-# CuerdaFloja Config
-
-game_active: 0.0
-player_rotation_speed: 1.0
-rope_length: 1.0
-player_size: 1.0
-points_on_win: 1.0
-rope_width: 1.0
-points_on_fall: -1.0
